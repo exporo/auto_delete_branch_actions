@@ -1,4 +1,4 @@
-# Linking Hosted Zones
+# Auto Delete Cloudformation Stacks for Branches
 
 ## Summary
 This repo creates a docker image that can be used by CircleCI and DockerCompose, as well as a Github Action that can be used in Github Workflows. It deletes all non-stage and non-production cloudformation stacks of a given name. This helps reduce cost of AWS and time that it takes to clean up cloudformation stacks.
