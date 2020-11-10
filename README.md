@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Links Hosted Zone to Root Account
-        uses: exporo/auto-delete-branches@v1
+        uses: exporo/auto_delete_branch_actions@v1
         with:
           AWS_DEFAULT_REGION: eu-central-1
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
