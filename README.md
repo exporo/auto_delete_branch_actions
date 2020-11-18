@@ -37,5 +37,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
           STACK_NAME: TestingStackName
-          ACCOUNT_ID: 1234567890
 ```
